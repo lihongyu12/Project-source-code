@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="swiper/swiper/dist/css/swiper.css" type="text/css">
+    <link rel="stylesheet" href="out/sass.css" type="text/css">
+    <link rel="stylesheet" href="font/iconfont.css" type="text/css">
+    <link rel="stylesheet" href="css2/certify.css">
+    <link rel="stylesheet" href="css2/swiper.min.css">
+    <script type="text/javascript" src="swiper/swiper/dist/js/swiper.js"></script>
+    <script type="text/javascript" src="swiper/swiper.min.js"></script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+</head>
+
+<body>
+    <div class="doc">
+        <div class="g-aside">
+            <div class="g-aside-top">
+                <div class="g-aside-den">
+                    <span class="r-color"></span><span class="y-color"></span><span class="b-color"></span>
+                </div>
+                <div class="g-aside-userimg">
+                    <div class="g-aside-userimg-img"><img src="" alt=""></div>
+                    <p>username</p>
+                    <ul class="g-aside-userimg-hui">
+                        <li><img src="images/lv.png" alt=""></li>
+                        <li><img src="images/h.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="g-aside-menu">
+                <div class="g-aside-menu-musicroom1">
+                    <h5>音乐馆</h5>
+                    <ul>
+                        <li><i class="iconfont icon-wangyiyunyinle"></i>精选</li>
+                        <li><i class="iconfont icon-paihang"></i>排行</li>
+                        <li><i class="iconfont icon-genduo"></i>歌单</li>
+                        <li><i class="iconfont icon-diantai"></i>电台</li>
+                        <li><i class="iconfont icon-mv"></i>MV</li>
+                    </ul>
+                </div>
+                <div class="g-aside-menu-musicroom2">
+                    <h5>我的音乐</h5>
+                    <ul>
+                        <li><i class="iconfont icon-woxihuan"></i>我喜欢</li>
+                        <li><i class="iconfont icon-bendi"></i>本地歌曲</li>
+                        <li><i class="iconfont icon-xiazai"></i>下载歌曲</li>
+                        <li><i class="iconfont icon-lishi"></i>播放历史</li>
+                        <li><i class="iconfont icon-wangpan"></i>微云音乐网盘</li>
+                    </ul>
+                </div>
+                <div class="g-aside-menu-musicroom3">
+                    <h5>创建的歌单<i class="iconfont icon-add"></i></h5>
+                    <ul>
+                        <li>大小就贫</li>
+                        <li>打小就贫</li>
+                    </ul>
+                </div>
+                <div class="g-aside-menu-musicroom4">
+                    <h5>收藏的歌单<i class="iconfont icon-add"></i></h5>
+                    <ul>
+                        <li>大小就贫</li>
+                        <li>打小就贫</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="g-aside-play">
+                <ul>
+                    <li class="back_but"><i class="iconfont">&#xe608;</i></li>
+                    <li class="play_but"><i class="iconfont">&#xe600;</i></li>
+                    <li class="next_but"><i class="iconfont">&#xe61a;</i></li>
+                    <li class="yin"><i class="iconfont">&#xe60e;</i></li>
+                    <li class="sui"><i class="iconfont">&#xe61c;</i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="g-inner">
+            <div class="g-inner-hd">
+                <ul>
+                    <li><i class="iconfont">&#xe611;</i></li>
+                    <li><i class="iconfont">&#xe602;</i></li>
+                    <li><i class="iconfont">&#xe603;</i></li>
+                    <li>
+                        <div><input type="text" class="iconfont" placeholder="搜索"></div>
+                    </li>
+                    <li><i class="iconfont">&#xe8fa;</i></li>
+                    <li><i class="iconfont">&#xe64f;</i></li>
+                    <li><i class="iconfont">&#xe683;</i></li>
+                    <li><i class="iconfont">&#xe61d;</i></li>
+                </ul>
+            </div>
+            <div class="g-inner-bd2-f">
+                <div class="g-inner-bd2">
+                    <div class="music-type">
+                        <div class="music-type-img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="music-type-xin">
+                            <h3></h3>
+                            <ul>
+                                <li><i class="iconfont">&#xe600;</i>播放全部</li>
+                                <li><i class="iconfont">&#xe652;</i>收藏</li>
+                                <li><i class="iconfont">&#xe60d;</i>批量操作</li>
+                                <li><i class="iconfont">&#xe81e;</i>下载全部</li>
+                                <li><i class="iconfont">&#xe696;</i>分享</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="music-menu">
+                        <div class="music-menu-hd"><span class="music-menu-length"></span> <span class="music-menu-ping">评论(1)</span></div>
+                        <div class="music-menu-td">
+                            <span class="music-gequ">歌曲</span>
+                            <span class="music-geshou">歌手</span>
+                            <span class="music-zhuanji">专辑</span>
+                            <span class="music-time">时间</span>
+                        </div>
+                        <ul class="music-menu-music">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="g-inner-bd">
+                <div class="g-inner-lunbo">
+                    <div id="certify">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <div class="g-inner-tui">
+                    <h4>为你推荐</h4>
+                    <div class="swiper-container2">
+                        <ul class="swiper-wrapper">
+                        </ul>
+                    </div>
+                </div>
+                <div class="g-inner-men">
+                    <ul>
+                        <li>新歌速递</li>
+                        <li>最新</li>
+                        <li>内地</li>
+                        <li>港台</li>
+                        <li>欧美</li>
+                        <li>韩国</li>
+                        <li>日本</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="g-inner-play">
+                <div class="g-inner-play-img">
+                    <img src="" alt="">
+                </div>
+                <div class="g-inner-play-jindu">
+                    <p>
+                        <span class="g-inner-play-musicname">中华民谣</span>
+                        <span class="g-inner-play-end">04:13</span>
+                        <span class="g-inner-play-x">/</span>
+                        <span class="g-inner-play-star">00:00</span>
+                    </p>
+                    <span><span class="tiao"></span></span>
+                </div>
+                <ul class="g-inner-play-menu">
+                    <li><i class="iconfont">&#xe652;</i></li>
+                    <li><i class="iconfont">&#xe81e;</i></li>
+                    <li><i class="iconfont">&#xe696;</i></li>
+                    <li><i class="iconfont">&#xe6c8;</i></li>
+                    <li><i class="iconfont">&#xe60d;</i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="music-play-jiemian">
+        <div class="but">
+            <i class="iconfont fanhui">&#xe6aa;</i><i class="iconfont xuanping">&#xe64a;</i><i class="iconfont">&#xe64b;</i>
+        </div>
+        <div class="music-haibao">
+            <div class="music-haibao-img">
+                <div>
+                    <img src="" alt="">
+                </div>
+                <ul>
+                    <li><span><i class="iconfont">&#xe652;</i></span></li>
+                    <li><span><i class="iconfont">&#xe81e;</i></span></li>
+                    <li><span><i class="iconfont">&#xe696;</i></span></li>
+                </ul>
+            </div>
+            <div class="music-geci">
+                
+                <div class="music-geci-ci">
+                    <div class="geci-dong">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="music-geci-bottom">
+            <div class="g-aside-play2">
+                <ul>
+                    <li class="back_but"><i class="iconfont">&#xe608;</i></li>
+                    <li class="play_but"><i class="iconfont">&#xe600;</i></li>
+                    <li class="next_but"><i class="iconfont">&#xe61a;</i></li>
+                    <li class="yin"><i class="iconfont">&#xe60e;</i></li>
+                    <li class="sui"><i class="iconfont">&#xe61c;</i></li>
+                </ul>
+            </div>
+            <div class="g-inner-play2">
+                <div class="g-inner-play-img">
+                    <img src="" alt="">
+                </div>
+                <div class="g-inner-play-jindu">
+                    <p>
+                        <span class="g-inner-play-musicname">中华民谣</span>
+                        <span class="g-inner-play-end">04:13</span>
+                        <span class="g-inner-play-x">/</span>
+                        <span class="g-inner-play-star">00:00</span>
+                    </p>
+                    <span><span class="g-inner-play-jindu-2"></span></span>
+                </div>
+                <ul class="g-inner-play-menu">
+                    <li><i class="iconfont">&#xe652;</i></li>
+                    <li><i class="iconfont">&#xe81e;</i></li>
+                    <li><i class="iconfont">&#xe696;</i></li>
+                    <li><i class="iconfont">&#xe6c8;</i></li>
+                    <li><i class="iconfont">&#xe60d;</i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="mini">
+        <div class="mini-zhuaji">
+            <img src="" alt="">
+        </div>
+        <div class="mini-img">
+            <div>
+                <i class="iconfont">&#xe60c;</i>
+                <i class="iconfont">&#xe626;</i>
+            </div>
+            <img src="images/h.png" alt="">
+        </div>
+        <div class="g-aside-play3">
+                <ul>
+                    <li class="back_but"><i class="iconfont">&#xe608;</i></li>
+                    <li class="play_but"><i class="iconfont">&#xe600;</i></li>
+                    <li class="next_but"><i class="iconfont">&#xe61a;</i></li>
+                </ul>
+        </div>
+        <ul class="g-inner-play-menu">
+            <li><i class="iconfont">&#xe652;</i></li>
+            <li class="sui"><i class="iconfont">&#xe61c;</i></li>
+            <li><i class="iconfont">&#xe6c8;</i></li>
+            <li><i class="iconfont">&#xe60d;</i></li>
+        </ul>
+    </div>
+    <audio class="music-autoplay"></audio>
+</body>
+
+</html>
