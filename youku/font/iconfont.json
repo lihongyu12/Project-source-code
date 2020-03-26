@@ -1,0 +1,114 @@
+{
+  "id": "1424082",
+  "name": "youku",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "151594",
+      "name": "上传",
+      "font_class": "shangchuan",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "522871",
+      "name": "频道",
+      "font_class": "pindao",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "914100",
+      "name": "用户",
+      "font_class": "wszl",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "2175018",
+      "name": "少儿",
+      "font_class": "shaoer",
+      "unicode": "e736",
+      "unicode_decimal": 59190
+    },
+    {
+      "icon_id": "2402420",
+      "name": "综艺",
+      "font_class": "weibiaoti--",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "3284847",
+      "name": "客户端",
+      "font_class": "kehuduan",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "4977259",
+      "name": "记录",
+      "font_class": "note_time",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "5226914",
+      "name": "星星-线",
+      "font_class": "xing",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "5872049",
+      "name": "pc-导航-下载中心",
+      "font_class": "pc-daohang-xiazaizhongxin",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "7105093",
+      "name": "动漫",
+      "font_class": "dongman",
+      "unicode": "e6c3",
+      "unicode_decimal": 59075
+    },
+    {
+      "icon_id": "7379222",
+      "name": "片库",
+      "font_class": "pianku",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "8457974",
+      "name": "VIP",
+      "font_class": "VIP",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "8648854",
+      "name": "订阅",
+      "font_class": "dingyue",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "9453272",
+      "name": "电影",
+      "font_class": "dianying",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "9944562",
+      "name": "剧集",
+      "font_class": "juji",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}

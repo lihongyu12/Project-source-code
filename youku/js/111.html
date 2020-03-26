@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+</body>
+
+</html>
+<script type="text/javascript">
+/*	var a = [1,2,3,4,5,60]
+var b = Math.max.apply(null,a)
+console.log(b)
+apply会将一个数组转换为一个参数接一个参数的方式传递给方法
+这块在调用的时候第一个参数给了null，这是因为没有对象去调用这个方法，我只需要用这个方法帮我运算，得到返回的结果就行，所以直接传递了一个null过去。
+*/
+
+//1.
+var s = new Set();
+
+[2, 3, 5, 4, 5, 2, 2].map(x => s.add(x))
+
+for (let i of s) {
+  console.log(i);
+}
+
+
+
+
+
+
+
+function jk() {
+    var str = "HelloMyWorldddo"
+    var strs = str.split('')
+    var str1 = []
+    var n = []
+    var nu = []
+
+    for (var i = 0; i < strs.length; i++) {
+        if (str1.indexOf(strs[i]) == -1) {
+            str1.push(strs[i])
+        }
+    }
+
+
+    for (var m = 0; m < str1.length; m++) {
+        var num = 0;
+        for (var i = 0; i < strs.length; i++) {
+
+            if (strs[i].indexOf(str1[m]) != -1) {
+                num++
+            }
+
+        }
+        nu.push(num)
+        n.push(num + str1[m])
+       
+    }
+    var out = Math.max.apply(null, nu)
+    var xv = []
+    var llk=[]
+
+
+ 	 for (var i = 0; i < nu.length; i++) {
+        if (nu[i]==out) {
+        	xv.push(i)
+        }
+       
+    }
+
+    for (var i = 0; i < xv.length; i++) {
+       llk.push(n[xv[i]]) 
+       
+    }
+return llk.join("");
+}
+jk();
+console.log(jk())
+
+//2.
+// var ks = "HelloMyWorld"
+// var ks2 = ks.split("")
+
+// for (var i = 0; i < ks2.length; i++) {
+//        llk.push(n[xv[i]]) 
+       
+//     }
+
+//3.
+function fn23() {
+    var str = "Welcom to Beijing"
+    var str2 = str.split(' ').reverse()
+    return str2.join(" ");
+   
+}
+
+console.log(fn23())
+
+//4.
+var s = ["one", "two", "three"]
+for (var i = s.length - 1; i >= 0; i--) {
+    s.push(s[i])
+}
+console.log(s)
+
+
+//5.
+var strr = "   jfkej fkejk  "
+var strr2 = strr.split("")
+var a = 0;
+var b = 0;
+for (var i = 0; i < strr2.length; i++) {
+    if (strr2[i].indexOf(" ") != -1) {
+        a++;
+    } else {
+        break;
+    }
+}
+for (var i = strr2.length - 1; i >= 0; i--) {
+    if (strr2[i].indexOf(" ") != -1) {
+        b++;
+    } else {
+        break;
+    }
+}
+for (var i = 0; i < a; i++) {
+    strr2.shift()
+}
+for (var i = 0; i < b; i++) {
+    strr2.pop()
+}
+console.log(strr2.join("7"))
+
+
+//6.
+var nt = " kfo__dek_dfd_s_12"
+var nt1 = nt.split("")
+var x = /^[a-z]$/
+var x2 = /^[_]$/
+for (var i = 0; i < nt1.length; i++) {
+    if (nt1[i].search(x2) != -1 && nt1[i + 1].search(x) != -1) {
+        nt1.splice(i + 1, 1, nt1[i + 1].toUpperCase())
+
+    }
+    if (nt1[i].indexOf("_") != -1) {
+        delete nt1[i]
+    }
+}
+console.log(nt1.join(''))
+
+
+//7.
+var xt = "4f3j2223k1ek5_ f6d"
+var xt1 = xt.split('')
+var yy = /^[0-9]$/
+for (var i = 0; i < xt1.length; i++) {
+    if (xt1[i].search(yy) != -1) {
+        delete xt1[i]
+
+    }
+}
+console.log(xt1.join(""))
+
+//8.
+var ny = "jdfksdjf_1"
+var ny1 = ny.split("").reverse().join("")
+console.log(ny1)
+
+//9.
+var yt = "HelloMyWorld"
+var yts = yt.split('')
+var yty = []
+
+
+for (var i = 0; i < yts.length; i++) {
+    if (yty.indexOf(yts[i]) == -1) {
+        yty.push(yts[i])
+    }
+}
+for (var m = 0; m < yty.length; m++) {
+    var nume = 0;
+    for (var i = 0; i < yts.length; i++) {
+        if (yty[m].indexOf(yts[i]) != -1) {
+            nume++;
+        }
+    }
+    yty.splice(m, 1, yts[m] + nume + '次')
+    console.log(nume)
+}
+console.log(yty)
+
+
+//10.
+var arr = [1, 2, 3, 4, 5]
+var arr1 = arr.slice(0, 2)
+console.log(arr)
+console.log(arr1)
+
+//11.
+var sta = "abcdsfabfsdf";
+var sta1 = sta.split("");
+for (var i = 0; i < sta1.length; i++) {
+    if (sta1[i].indexOf("a") != -1) {
+        sta1.splice(i, 1, sta1[i].toUpperCase())
+    }
+}
+console.log(sta1.join(""))
+
+//12.
+for (var i = 0, k = 0; i < 7, k < 5; i++, k++) {
+    i = i + k;
+    console.log(i, k)
+}
+
+
+//13.
+function norepeat(a) {
+    var x = []
+    for (var i = 0; i < a.length; i++) {
+        if (x.indexOf(a[i]) == -1) {
+            x.push(a[i])
+        }
+    }
+    return x;
+}
+var nj = [1, 2, 3, 12, 2, 5, 1]
+
+console.log(norepeat(nj))
+
+
+//14.
+
+var g = [1, 2, 42, 6, 82]
+var g1 = 7
+
+
+function fn(z, y) {
+    z.push(y);
+    z.sort(function(a, b) {
+        return a - b;
+    });
+    return z;
+}
+console.log(fn(g, g1))
+
+//15.
+function cn(cv) {
+    var cy = 0
+    var cy2 = 0
+    for (var i = 0; i < cv.length; i++) {
+        if (i % 2 != 0) {
+            cy += cv[i];
+            cy2++;
+        }
+    }
+    return (cy / cy2);
+}
+var p = [1, 5, 3, 5, 4, 8, 6, 2, 5, 4]
+
+console.log(cn(p))
+
+//16.
+function mw(x) {
+    for (var i = 0; i < x.length; i++) {
+        x.splice(i, 1, (x[i] + 5) % 10)
+    }
+    return x.reverse();
+}
+var kl = [12, 25, 20, 35]
+
+console.log(mw(kl))
+
+
+//17.
+function h(x, m) {
+    var mh = [x, m]
+    var nun = 0
+    mh.sort(function(a, b) {
+        return a - b;
+    })
+
+    for (var i = (mh[0] + 1); i < mh[1]; i++) {
+        nun += i;
+    }
+    return nun;
+}
+console.log(h(5, 1))
+</script>
