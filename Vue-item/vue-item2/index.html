@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <script type="text/javascript" src="js/vue.js"></script>
+    <script type="text/javascript" src="js/vue-router.js"></script>
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+</head>
+
+<body>
+    <div id="doc">
+        <!-- ///////////////////////////////顶部 -->
+        <div class="header clearfix">
+            <div style="float: left;">
+                <span style="margin-right:10px; "><i class="el-icon-phone"></i>0512-67671223</span>
+                <span><i class="el-icon-alarm-clock"></i>上午9点至下午6点</span>
+            </div>
+            <div style="float: right;">
+                <i class="el-icon-position"></i>
+                <a href="" style="color:  #e5e5e5;">
+                    <i class="el-icon-user-solid"></i>
+                    <span>登录</span>
+                </a>
+                <a href="" style="color:  #e5e5e5;">
+                    <i class="el-icon-d-arrow-right"></i>
+                    <span>注册</span>
+                </a>
+            </div>
+        </div>
+        <!-- ///////////////////////////////////////////导航 -->
+        <div class="nav clearfix">
+            <div style="height: 70px;float: left;">
+                <a href="" style="display: inline-block; height:70px;"><img src="https://ccdn.goodq.top/caches/5298879a47437c1c6c5e6399b11eb6f3/aHR0cDovLzU4MWRhMDNiNDU2ZWQudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNi8xMS84NTQ0YzgzNTM0OTE2NWNiZWEwODgzMWViNDUwZjZmOS5wbmc_p_p100_p_3D.png" alt="" style="height: 45px;margin-top: 12px;"></a>
+            </div>
+            <div class="nav-nav">
+                <a href="#/">首页</a>
+                <a href="#/we">关于我们</a>
+                <a href="#/introduce">产品介绍</a>
+                <a href="#/counsel">理财咨询</a>
+                <a href="#/recruit">招贤纳士</a>
+                <a href="#/contact">联系我们</a>
+            </div>
+            <div style="float: right;height: 70px;">
+                <i class="el-icon-phone-outline" style="font-size: 38px;margin-top: 15px;"></i>
+                <span style="font-size: 20px;">4001-200-100</span>
+            </div>
+        </div>
+        <!-- //////////////////////////////内容 -->
+        <div class="content">
+            <keep-alive>
+                 <router-view></router-view>
+            </keep-alive>
+           
+        </div>
+        <!-- ///////////////////////////////////底部 -->
+        <div class="foot">
+            <div>
+                <div style="">
+                    <img src="https://ccdn.goodq.top/caches/5298879a47437c1c6c5e6399b11eb6f3/aHR0cDovLzU4MWRhMDNiNDU2ZWQudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNi8xMC9jZjNkNmZmMDA5NTczZTA4ZTA2Mzc2OGM0ZDE3YjM5Ny0xMjB4MTIwLmpwZw_p_p100_p_3D_p_p100_p_3D.jpg" alt="" style="margin-top: 30px;margin-bottom: 10px;">
+                </div>
+                <p>版权所有 ©2017 地址：苏州市工业园区大道金鸡湖大道99号 苏ICP备1230012300号</p>
+            </div>
+        </div>
+    </div>
+    <template id="shouye">
+        <div>
+            <lunbo></lunbo>
+            <jindu></jindu>
+            <div style="border-top:1px solid #ccc;border-bottom:1px solid #ccc;line-height:50px;padding-left: 100px; ">
+                <span style="color: rgb(105, 105, 105);font-size: 16px;">最新公告：<span style="color: #ea8b0e;font-size: 14px;">实力雄厚 安全保障</span></span>
+            </div>
+            <cont></cont>
+            <cont2></cont2>
+            <foot></foot>
+        </div>
+    </template>
+    <template id="we">
+        <div>
+            <wehead></wehead>
+        </div>
+    </template>
+    <template id="introduce">
+        <div>
+            <introduce-type></introduce-type>
+        </div>
+    </template>
+    <template id="counsel">
+        <div>
+            <newzixun></newzixun>
+        </div>
+    </template>
+    <template id="recruit">
+       <div>
+           <zixun></zixun>
+       </div>
+    </template>
+    <template id="contact">
+        <div>
+            <div style="height: 375px;background-color: #19cec5;text-align: center;overflow: hidden;">
+                <img src="https://ccdn.goodq.top/caches/5298879a47437c1c6c5e6399b11eb6f3/aHR0cDovLzU4MWRhMDNiNDU2ZWQudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNi8xMS9jMGJiNGJmYTk1MzBiNjU2MDViMmNhZjI5YjljNDM3MS02MDB4MjkxLnBuZw_p_p100_p_3D_p_p100_p_3D.png" alt="" style="margin-top: 90px;">
+            </div>
+            <div style="margin: 40px 250px;">
+                <div>
+                    <iframe src="https://map.baidu.com/@12748538.99,4559724.44,12z" width="100%"height="500px;"></iframe>
+                </div>
+                </div>
+                <div class="clearfix" style="margin: 0px 250px;">
+                    <div style="float: left;width: 50%;color: rgb(136,136,136);font-size: 14px;line-height: 25px;">
+                        <p>电话：400-800-6000</p>
+                        <p>网址：www.abcdefg.com</p>
+                        <p>邮箱：info@email.com</p>
+                        <p>地址：苏州市工业区金鸡湖大道99号</p>
+                        <p style="margin-top: 20px;">
+                            <span style="color: red;">温馨提示：</span>使用表单之前需要配置表单的收件邮箱和网站的发件邮箱。详情请参考教程<a href="" style="color:#696969">《如何设置表单中的邮箱》</a>
+                        </p>
+                    </div>
+                    <div  style="float: left;width: 50%;">
+                        <div>
+                            <input type="text" placeholder="姓名*" style="width: 90%;border:1px solid #ccc;margin-bottom: 10px;text-indent: 1em;height: 40px;font-size: 14px;">
+                        </div>
+                        <div >
+                            <input type="text" placeholder="邮箱*"  style="width: 90%;border:1px solid #ccc;margin-bottom: 10px;text-indent: 1em;height: 40px;font-size: 14px;">
+                        </div>
+                        <div>
+                            <input type="text" placeholder="联系电话"  style="width: 90%;border:1px solid #ccc;margin-bottom: 10px;text-indent: 1em;height: 40px;font-size: 14px;">
+                        </div>
+                        <div>
+                            <textarea name="" id="" cols="30" rows="10" style="width: 90%;border:1px solid #ccc;margin-bottom: 10px;text-indent: 1em;height: 70px;font-size: 14px;" placeholder="内容*">
+                                
+                            </textarea>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+</body>
+
+</html>
+<script type="text/javascript" src="js/js.js"></script>
