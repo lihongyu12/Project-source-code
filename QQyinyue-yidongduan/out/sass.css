@@ -1,0 +1,614 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.qiehuan:after, .doc:after, .g-lunbo-img:after, .g-ad:after, .g-music-menu h4:after, .g-music-menu-inner:after, .g-music-menu2 h4:after, .g-fenlei h4:after, .g-new h4:after, .doc-play:after, .doc-play-bo:after, .doc-play-playbt ul:after, .doc-music_menu:after, .qiehuan:before, .doc:before, .g-lunbo-img:before, .g-ad:before, .g-music-menu h4:before, .g-music-menu-inner:before, .g-music-menu2 h4:before, .g-fenlei h4:before, .g-new h4:before, .doc-play:before, .doc-play-bo:before, .doc-play-playbt ul:before, .doc-music_menu:before {
+  content: "";
+  display: table; }
+
+.qiehuan:after, .doc:after, .g-lunbo-img:after, .g-ad:after, .g-music-menu h4:after, .g-music-menu-inner:after, .g-music-menu2 h4:after, .g-fenlei h4:after, .g-new h4:after, .doc-play:after, .doc-play-bo:after, .doc-play-playbt ul:after, .doc-music_menu:after {
+  clear: both; }
+
+.fl, .doc, .g-search span, .g-ad-box, .g-ad-box2, .g-ad-box-img, .g-ad-box-text, .g-music-menu-inner, .g-fenlei .g-fenlei-box .g-fenlei-bo1, .g-new .g-new-box .g-new-inner, .doc-play-hd .icon-down2, .doc-play-bo > span:nth-of-type(1), .doc-play-playbt .icon-bofangye-caozuolan-suijibofang, .doc-play-playbt ul li:nth-of-type(1), .doc-play-playbt ul li:nth-of-type(2), .doc-music_menu, .doc-music_menu-ad p .icon-down2, .doc-music_menu-music h4 .bofang {
+  float: left; }
+
+.fr, .g-search > i, .g-ad-box2, .g-music-menu h4 span, .g-music-menu2 h4 span, .g-fenlei h4 span, .g-new h4 span, .doc-play-hd .icon-gengduo, .doc-play-hd .icon-gecishezhi_, .doc-play-bo > span:nth-of-type(2), .doc-play-playbt .icon-gengduo1, .doc-play-playbt ul li:nth-of-type(3), .doc-music_menu-ad p .icon-gengduo, .doc-music_menu-music h4 .icon-gengduo1, .doc-music_menu-music h4 .icon-xiazai, .music .icon-danchuang_bofangMV_, .music .icon-gengduo, .music-bottom .music-bottom-play, .music-bottom .icon-gengduo1 {
+  float: right; }
+
+.mlr, .g-music-nav, .g-ad, .g-music-menu h4, .g-music-menu2 h4, .g-fenlei h4, .g-new h4 {
+  margin-right: 24px;
+  margin-left: 24px; }
+
+body {
+  width: 621px;
+  overflow: hidden; }
+
+.qiehuan {
+  width: 1242px; }
+
+.doc {
+  width: 621px;
+  background-color: #f7f7f7;
+  padding-top: 14px;
+  overflow: hidden; }
+
+.g-search {
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-bottom: 30px; }
+  .g-search span {
+    font-size: 32px;
+    line-height: 48px; }
+  .g-search > i {
+    line-height: 48px;
+    color: #7d7d7d;
+    font-size: 38px; }
+  .g-search .g-sou {
+    position: relative;
+    margin-right: 60px;
+    margin-left: 118px;
+    border-radius: 24px;
+    background-color: #fff; }
+    .g-search .g-sou input {
+      width: 100%;
+      border-radius: 24px;
+      line-height: 48px;
+      border: none;
+      outline: none;
+      text-align: center;
+      font-size: 22px;
+      color: #989898; }
+    .g-search .g-sou > i {
+      position: absolute;
+      left: 150px;
+      top: 13px;
+      font-size: 22px; }
+
+.g-lunbo {
+  margin-right: 24px;
+  margin-left: 24px;
+  width: 573px;
+  position: relative;
+  height: 233px;
+  overflow: hidden; }
+  .g-lunbo .swiper-container {
+    height: 100%; }
+
+.g-lunbo-img {
+  width: 100%; }
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px; }
+
+.g-lunbo-button {
+  position: absolute;
+  bottom: 10px; }
+  .g-lunbo-button li {
+    width: 10px;
+    height: 10px;
+    background-color: white; }
+
+.g-music-nav {
+  padding-top: 35px;
+  margin-bottom: 21px; }
+  .g-music-nav ul {
+    display: flex; }
+    .g-music-nav ul li {
+      list-style: none;
+      flex: 1;
+      text-align: center; }
+      .g-music-nav ul li p {
+        font-size: 18px;
+        color: #2b2b2b;
+        line-height: 48px; }
+      .g-music-nav ul li i {
+        font-size: 32px;
+        color: #67cf9c; }
+
+.g-ad {
+  margin-bottom: 16px; }
+  .g-ad-box, .g-ad-box2 {
+    width: 280px;
+    height: 101px;
+    background-color: #67c39c;
+    border-radius: 10px;
+    padding-top: 25px; }
+    .g-ad-box-img {
+      margin-left: 12px; }
+      .g-ad-box-img img {
+        width: 75px;
+        height: 75px;
+        border-radius: 8px; }
+    .g-ad-box-text {
+      margin-top: 7px;
+      margin-left: 12px; }
+      .g-ad-box-text h5 {
+        font-size: 21px;
+        line-height: 33px;
+        color: #fff; }
+      .g-ad-box-text p {
+        font-size: 18px;
+        line-height: 30px;
+        color: #e8f1ec; }
+
+.swiper-slide2 {
+  width: auto; }
+
+.g-music-menu {
+  overflow: hidden;
+  height: 337px; }
+  .g-music-menu > div {
+    height: 265px;
+    position: relative; }
+  .g-music-menu h4 {
+    line-height: 74px;
+    color: #000;
+    font-size: 26px; }
+    .g-music-menu h4 span {
+      font-size: 18px;
+      color: #2c2c2c; }
+  .g-music-menu-muc1, .g-music-menu2 .g-music-menu-muc2 {
+    position: absolute; }
+    .g-music-menu-inner {
+      width: 183px;
+      margin-right: 12px; }
+      .g-music-menu-inner:nth-of-type(1) {
+        margin-left: 24px; }
+      .g-music-menu-inner > div {
+        position: relative; }
+        .g-music-menu-inner > div img {
+          width: 183px;
+          height: 183px;
+          border-radius: 8px; }
+        .g-music-menu-inner > div .icon-qqmusicgrey {
+          position: absolute;
+          font-size: 16px;
+          top: 8px;
+          left: 8px;
+          color: #e1e1e1; }
+        .g-music-menu-inner > div > p {
+          position: absolute;
+          bottom: 9px;
+          right: 9px; }
+          .g-music-menu-inner > div > p span {
+            font-size: 14px;
+            color: #000; }
+          .g-music-menu-inner > div > p i {
+            font-size: 30px;
+            color: #fff;
+            vertical-align: middle; }
+      .g-music-menu-inner > p {
+        margin-top: 10px;
+        width: 183px;
+        font-size: 19px;
+        line-height: 26px;
+        color: #252525; }
+
+.g-music-menu2 {
+  height: 337px; }
+  .g-music-menu2 > div {
+    height: 265px;
+    position: relative; }
+  .g-music-menu2 h4 {
+    line-height: 74px;
+    color: #000;
+    font-size: 26px; }
+    .g-music-menu2 h4 span {
+      font-size: 18px;
+      color: #2c2c2c; }
+
+.g-fenlei {
+  overflow: hidden;
+  margin-top: 14px; }
+  .g-fenlei h4 {
+    line-height: 74px;
+    color: #000;
+    font-size: 26px; }
+    .g-fenlei h4 span {
+      font-size: 18px;
+      color: #2c2c2c; }
+  .g-fenlei .g-fenlei-box {
+    width: 804px; }
+    .g-fenlei .g-fenlei-box img {
+      width: 378px;
+      height: 212px;
+      border-radius: 9px; }
+    .g-fenlei .g-fenlei-box .g-fenlei-bo1 {
+      margin-right: 12px; }
+      .g-fenlei .g-fenlei-box .g-fenlei-bo1:nth-of-type(1) {
+        margin-left: 24px; }
+      .g-fenlei .g-fenlei-box .g-fenlei-bo1 > p {
+        line-height: 45px;
+        font-size: 18px;
+        color: #272727; }
+      .g-fenlei .g-fenlei-box .g-fenlei-bo1 > div {
+        position: relative; }
+        .g-fenlei .g-fenlei-box .g-fenlei-bo1 > div p {
+          position: absolute;
+          left: 9px;
+          bottom: 9px;
+          line-height: 52px; }
+          .g-fenlei .g-fenlei-box .g-fenlei-bo1 > div p span {
+            font-size: 23px;
+            color: #fff; }
+
+.g-new {
+  margin-top: 36px; }
+  .g-new h4 {
+    line-height: 74px;
+    color: #000;
+    font-size: 26px; }
+    .g-new h4 span {
+      font-size: 18px;
+      color: #2c2c2c; }
+  .g-new .g-new-box .g-new-inner {
+    width: 183px;
+    margin-right: 12px; }
+    .g-new .g-new-box .g-new-inner:nth-of-type(1) {
+      margin-left: 24px; }
+    .g-new .g-new-box .g-new-inner > div {
+      position: relative; }
+      .g-new .g-new-box .g-new-inner > div img {
+        width: 183px;
+        height: 183px;
+        border-radius: 8px; }
+      .g-new .g-new-box .g-new-inner > div > p {
+        position: absolute;
+        bottom: 9px;
+        right: 9px;
+        line-height: 32px; }
+        .g-new .g-new-box .g-new-inner > div > p b {
+          display: inline-block;
+          width: 32px;
+          height: 32px;
+          text-align: center;
+          line-height: 32px;
+          background-color: #fff;
+          border-radius: 50%; }
+          .g-new .g-new-box .g-new-inner > div > p b i {
+            font-size: 14px;
+            color: #c9c9c9; }
+    .g-new .g-new-box .g-new-inner > p {
+      width: 183px;
+      font-size: 19px;
+      line-height: 26px;
+      color: #252525; }
+      .g-new .g-new-box .g-new-inner > p:nth-of-type(1) {
+        margin-top: 10px; }
+      .g-new .g-new-box .g-new-inner > p:nth-of-type(2) {
+        color: #a7a7a7; }
+
+.doc-play {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 621px;
+  padding-top: 30px;
+  padding-bottom: 28px; }
+
+.swiper-container4 {
+  position: relative; }
+  .swiper-container4 .swiper-pagination-bullet-active {
+    background-color: white; }
+    .swiper-container4 .swiper-pagination-bullet-active li {
+      border-radius: 50%; }
+
+.doc-play-hd {
+  line-height: 30px;
+  margin-bottom: 20px; }
+  .doc-play-hd .icon-down2 {
+    margin-left: 29px; }
+  .doc-play-hd .icon-gengduo {
+    margin-right: 28px; }
+  .doc-play-hd .icon-gecishezhi_ {
+    margin-right: 28px;
+    font-size: 32px; }
+  .doc-play-hd p {
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff; }
+
+.doc-play-name {
+  line-height: 21px;
+  font-size: 21px;
+  color: #dddbd9;
+  text-align: center; }
+  .doc-play-name p {
+    display: inline-block;
+    width: 26px;
+    height: 2px;
+    background-color: #9d9992;
+    line-height: 21px;
+    vertical-align: middle; }
+    .doc-play-name p:nth-of-type(1) {
+      margin-right: 12px; }
+    .doc-play-name p:nth-of-type(2) {
+      margin-left: 12px; }
+
+.doc-play-tag {
+  margin-top: 21px;
+  margin-bottom: 29px; }
+  .doc-play-tag ul {
+    display: flex;
+    margin-right: 190px;
+    margin-left: 190px; }
+    .doc-play-tag ul li {
+      flex: 1;
+      text-align: center;
+      border: 2px solid #fff;
+      color: #fff;
+      border-radius: 4px;
+      margin-right: 14px;
+      font-size: 17px;
+      line-height: 26px; }
+
+.doc-play-cd {
+  margin-left: 29px;
+  margin-right: 29px;
+  margin-bottom: 79px; }
+  .doc-play-cd > div {
+    height: 552px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    padding-top: 13px; }
+    .doc-play-cd > div > div {
+      height: 539px;
+      width: 539px;
+      position: relative;
+      margin: auto;
+      background-color: #0d0e09;
+      overflow: hidden;
+      border-radius: 50%; }
+      .doc-play-cd > div > div img {
+        position: absolute;
+        left: -250px; }
+
+.doc-play-bo {
+  line-height: 25px;
+  margin-right: 14px;
+  margin-left: 14px;
+  margin-bottom: 22px; }
+  .doc-play-bo > span {
+    color: #918f8e;
+    font-size: 13px; }
+  .doc-play-bo > div {
+    height: 25px;
+    margin-left: 56px;
+    margin-right: 56px;
+    position: relative; }
+    .doc-play-bo > div .doc-play-bt {
+      width: 25px;
+      height: 25px;
+      background-color: #fff;
+      border-radius: 50%;
+      position: absolute;
+      z-index: 2; }
+    .doc-play-bo > div .doc-play-to {
+      width: 465px;
+      height: 4px;
+      top: 10.5px;
+      background-color: rgba(0, 0, 0, 0.5);
+      line-height: 25px;
+      position: absolute;
+      right: 0px;
+      z-index: 1; }
+
+.doc-play-playbt {
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  line-height: 90px;
+  height: 90px; }
+  .doc-play-playbt .icon-bofangye-caozuolan-suijibofang {
+    font-size: 40px;
+    color: #a4a19f; }
+  .doc-play-playbt .icon-gengduo1 {
+    font-size: 30px;
+    color: #a4a19f; }
+  .doc-play-playbt ul {
+    margin-right: 144px;
+    margin-left: 144px; }
+    .doc-play-playbt ul li {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      text-align: center;
+      line-height: 50px;
+      border-radius: 50%; }
+      .doc-play-playbt ul li:nth-of-type(1) {
+        margin-top: 16px; }
+        .doc-play-playbt ul li:nth-of-type(1) i {
+          font-size: 23px;
+          color: #fff; }
+      .doc-play-playbt ul li:nth-of-type(3) {
+        margin-top: 16px; }
+        .doc-play-playbt ul li:nth-of-type(3) i {
+          font-size: 20px;
+          color: #fff; }
+      .doc-play-playbt ul li:nth-of-type(2) {
+        width: 82px;
+        height: 82px;
+        line-height: 82px;
+        margin: 0px auto;
+        margin-left: 35px; }
+        .doc-play-playbt ul li:nth-of-type(2) i {
+          font-size: 36px;
+          color: #fff; }
+
+.doc-play-shou ul {
+  display: flex; }
+  .doc-play-shou ul li {
+    flex: 1;
+    text-align: center;
+    line-height: 35px; }
+    .doc-play-shou ul li i {
+      color: #b2afad;
+      font-size: 35px; }
+
+.doc-play-ci2 {
+  height: 757px;
+  overflow: hidden;
+  position: relative; }
+  .doc-play-ci2 p {
+    font-size: 21px;
+    line-height: 55px;
+    color: #ffffff;
+    text-align: center; }
+  .doc-play-ci2 span {
+    position: absolute;
+    bottom: 40px;
+    left: 24px;
+    font-size: 32px;
+    color: #726d6c; }
+
+.doc-music_menu {
+  width: 621px; }
+
+.doc-music_menu-ad {
+  height: 430px;
+  position: relative;
+  display: flex; }
+  .doc-music_menu-ad img {
+    width: 621px;
+    height: 430px; }
+  .doc-music_menu-ad p {
+    width: 567px;
+    font-size: 17px;
+    line-height: 17px;
+    color: #fff;
+    position: absolute;
+    top: 50px;
+    left: 28px; }
+  .doc-music_menu-ad span {
+    left: 0px;
+    position: absolute;
+    bottom: 30px;
+    font-size: 16px;
+    color: #acaba7;
+    width: 621px;
+    text-align: center; }
+
+.doc-music_menu-music {
+  margin-top: 30px; }
+  .doc-music_menu-music h4 {
+    line-height: 37px;
+    margin-right: 27px;
+    margin-left: 24px;
+    margin-bottom: 28px;
+    font-size: 21px; }
+    .doc-music_menu-music h4 .bofang {
+      width: 37px;
+      line-height: 37px;
+      text-align: center;
+      border-radius: 50%;
+      background-color: #2ace99;
+      margin-right: 10px; }
+      .doc-music_menu-music h4 .bofang .icon-play {
+        font-size: 30px;
+        color: #fff; }
+    .doc-music_menu-music h4 .icon-gengduo1 {
+      color: #9b9b9b;
+      font-size: 24px; }
+    .doc-music_menu-music h4 .icon-xiazai {
+      color: #9b9b9b;
+      font-size: 24px;
+      margin-right: 32px; }
+
+.music {
+  margin-right: 27px;
+  margin-left: 16px;
+  padding-bottom: 69px; }
+  .music ul li {
+    line-height: 58px;
+    margin-bottom: 36px; }
+    .music ul li .p1 {
+      line-height: 35px;
+      color: #000;
+      font-size: 22px; }
+      .music ul li .p1 span {
+        margin-right: 32px; }
+        .music ul li .p1 span:nth-of-type(1) {
+          margin-left: 19px; }
+    .music ul li .p2 {
+      line-height: 23px; }
+      .music ul li .p2 .baifengbi {
+        font-size: 10px;
+        color: #a6a6a6; }
+      .music ul li .p2 .icon-shangsheng {
+        font-size: 12px;
+        color: #6e6e6e; }
+      .music ul li .p2 .zuozhe {
+        font-size: 19px;
+        color: #8d8d8d; }
+      .music ul li .p2 .VIP,
+      .music ul li .p2 .dujia {
+        display: inline-block;
+        line-height: 15px;
+        height: 15px;
+        font-size: 9px;
+        border: 2px solid #1ad699;
+        border-radius: 4px;
+        text-align: center;
+        font-weight: bold;
+        width: 30px;
+        color: #1ad699; }
+      .music ul li .p2 .SQ {
+        display: inline-block;
+        width: 30px;
+        line-height: 15px;
+        height: 15px;
+        font-size: 9px;
+        color: #e2b45f;
+        border: 2px solid #e2b45f;
+        border-radius: 4px;
+        text-align: center;
+        font-weight: bold;
+        margin-left: 15px; }
+  .music .icon-danchuang_bofangMV_ {
+    line-height: 35px;
+    font-size: 26px;
+    color: #a0a0a0;
+    margin-right: 29px; }
+  .music .icon-gengduo {
+    line-height: 35px;
+    color: #a0a0a0; }
+
+.music-bottom {
+  line-height: 67px;
+  background-color: #fff;
+  position: fixed;
+  z-index: 2200;
+  width: 621px;
+  bottom: 0;
+  left: 0; }
+  .music-bottom img {
+    width: 69px;
+    height: 69px;
+    position: absolute;
+    border-radius: 50%;
+    left: 9px;
+    top: -9px; }
+  .music-bottom p {
+    margin-left: 92px;
+    margin-right: 128px;
+    font-size: 20px;
+    color: #000;
+    line-height: 67px; }
+  .music-bottom .music-bottom-play {
+    width: 36px;
+    height: 36px;
+    border: 3px solid #1ad699;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 36px;
+    margin-right: 27px;
+    color: #2bcc98;
+    margin-top: 14px; }
+  .music-bottom .icon-gengduo1 {
+    margin-right: 27px;
+    color: #2bcc98;
+    font-size: 29px; }
